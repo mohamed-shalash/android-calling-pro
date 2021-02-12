@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="CALL"
+            android:id="@+id/nav_CALL"
+            android:icon="@drawable/ic_call_black_24dp"
+            ></item>
+        <item
+            android:title="Send Email"
+            android:id="@+id/nav_Send_email"
+            android:icon="@drawable/message"></item>
+        <item
+            android:title="add"
+            android:id="@+id/nav_add"
+            android:icon="@drawable/add"
+            ></item>
+        <item
+            android:title="home"
+            android:id="@+id/nav_home"></item>
+
+    </group>
+</menu>
